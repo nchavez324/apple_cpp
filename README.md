@@ -1,3 +1,23 @@
+Additions to Apple's [metal-cpp](https://developer.apple.com/metal/cpp/) providing the following extra symbols:
+
+  - AppKit.hpp
+    - NS::OpenGLContext
+    - NS::OpenGLPixelFormat
+    - NS::OpenGLView
+    - NS::OpenGLPixelFormatAttribute
+    - NS::OpenGLProfileVersion
+  - CoreGraphics.hpp
+    - CG::Float
+    - CG::Size
+  - OpenGLES.hpp
+    - EAGL::Context
+    - EAGL::Drawable
+    - EAGL::RenderingAPI
+  - QuartzCore.hpp
+    - CA::EAGLLayer
+
+The rest of the existing **metal-cpp* README follows:
+
 ## About
 
 **metal-cpp** is a low overhead and header only C++ interface for Metal that helps developers add Metal functionality to graphics applications that are written in C++ (such as game engines). **metal-cpp** removes the need to create a shim and allows developers to call Metal functions directly from anywhere in their existing C++ code.
