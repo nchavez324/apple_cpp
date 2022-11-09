@@ -16,6 +16,8 @@ Additions to Apple's [metal-cpp](https://developer.apple.com/metal/cpp/) providi
   - QuartzCore.hpp
     - CA::EAGLLayer
 
+Read more at https://nicolaschavez.com/projects/metal-cpp-extensions/.
+
 The rest of the existing **metal-cpp* README follows:
 
 ## About
