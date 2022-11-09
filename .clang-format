@@ -1,0 +1,8 @@
+---
+Language:        Cpp
+BasedOnStyle:  Google
+---
+Language:        ObjC
+BasedOnStyle:  Google
+...
+
